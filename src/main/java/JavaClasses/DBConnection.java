@@ -29,7 +29,7 @@ public class DBConnection {
         try
         {
             Class.forName("com.mysql.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://20.0.1.245:3306/mynewdatabase","root","tiger");
+            Connection con = DriverManager.getConnection("jdbc:mysql://20.0.1.50:3306/mynewdatabase","root","tiger");
             String query = "SELECT DISTINCT subject_id, name FROM subject";
             PreparedStatement statement = con.prepareStatement(query);
             rs = statement.executeQuery();
