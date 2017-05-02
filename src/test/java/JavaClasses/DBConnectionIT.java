@@ -54,5 +54,6 @@ public class DBConnectionIT {
         assertTrue(actualTitle.equalsIgnoreCase("Home Page - Phoenix"));
         //Close the browser  
         driver.quit();
+        
         }        
     }
