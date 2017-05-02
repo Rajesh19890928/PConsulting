@@ -25,8 +25,8 @@ public class DBConnectionIT {
         // Create a new instance of the Firefox driver
         // Notice that the remainder of the code relies on the interface, 
         // not the implementation.
-        //WebDriver driver = new FirefoxDriver();
-        WebDriver driver = new HtmlUnitDriver();
+        WebDriver driver = new FirefoxDriver();
+        //WebDriver driver = new HtmlUnitDriver();
         
         driver.get("http://54.169.72.231:8080/PConsulting/index.jsp");
 
