@@ -34,7 +34,7 @@
             <tbody>
                 <tr>
                     <td><strong>Service Description: </strong></td>
-                    <td><span style="font-size:smaller; font-style:italic;"><% out.print(rs.getString("description")); %>%></span></td>
+                    <td><span style="font-size:smaller; font-style:italic;"><% out.print(rs.getString("description")); %></span></td>
                 </tr>
                 
                 <tr>
@@ -56,6 +56,6 @@
         </table>
         <%}%>
         <br>
-        <a href="index.jsp">Go back</a>
+        <a href="index.jsp" name="back">Go back</a>
     </body>
 </html>
